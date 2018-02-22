@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/style.css">
+
+</head>
+
+<body>
+    <h2>Person
+        <%= ID %>
+    </h2>
+
+    <h4>
+        QueryString
+        <%= QStr %>
+    </h4>
+
+
+    <form method="POST" action="/person"> First Name :
+        <input type="text" id="firstName" name="firstName">
+        </br> Last Name :
+        <input type="text" id="lastName" name="lastName">
+        </br>
+        <input type="submit" name="Submit">
+    </form>
+</body>
+
+</html>
